@@ -24,7 +24,6 @@
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
-  speak: none;
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
@@ -527,7 +526,7 @@ html, body {
 /* FOOTER
 ================================================== */
 .site-footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     padding: 30px 0;
     width: 100%;
@@ -574,4 +573,16 @@ a.icon-up-bg:hover {color: #212121;}
     line-height: 40px;
     color: #fff;
     text-align: center;
+}
+
+.service img{
+    height: 100px;
+}
+
+.contact{
+    margin-bottom: 100px;
+}
+
+.contact a{
+    color: black;
 }
